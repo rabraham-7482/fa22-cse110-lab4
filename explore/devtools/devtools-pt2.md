@@ -1,0 +1,2 @@
+1. The bug is that when result is calculated by adding num1 and num2, both num1 and num2 are strings so a concatenation is occuring rather than arithmetic addition.
+2. It can be fized by converted both num1 and num2 to numbers using Number() during the initialization of result.
